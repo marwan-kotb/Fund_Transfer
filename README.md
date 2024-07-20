@@ -15,19 +15,13 @@ This web application handles fund transfers between accounts, supports importing
     git clone git@github.com:marwan-kotb/Fund_Transfer.git
     cd Fund_Transfer
     ```
-
-2. **Create and activate a virtual environment**:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Apply migrations**:
+    
+2. **Apply migrations**:
     ```sh
     python manage.py migrate
     ```
 
-4. **Run the development server**:
+3. **Run the development server**:
     ```sh
     python manage.py runserver
     ```
