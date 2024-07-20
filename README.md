@@ -37,19 +37,19 @@ The CSV file should have the following columns:
 ### Usage
 - Import Accounts
 
-Navigate to http://localhost:8000/accounts/import/ to upload a CSV file and import accounts.
+Navigate to http://localhost:8000/import/ to upload a CSV file and import accounts.
 
 - List Accounts
 
-Navigate to http://localhost:8000/accounts/ to view all accounts.
+Navigate to http://localhost:8000/ to view all accounts.
 
 - Get Account Information
 
-Navigate to http://localhost:8000/accounts/<account_number>/ to view details for a specific account.
+Navigate to http://localhost:8000/<account_number>/ to view details for a specific account.
 
 - Transfer Funds
 
-Navigate to http://localhost:8000/accounts/transfer/ to transfer funds between accounts.
+Navigate to http://localhost:8000/transfer/ to transfer funds between accounts.
 
 
 
